@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: uniswap-interface\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-11-17 01:33\n"
+"PO-Revision-Date: 2022-11-20 09:04\n"
 "Last-Translator: \n"
 "Language: fr_FR\n"
 "Language-Team: French\n"
@@ -197,6 +197,7 @@ msgid "Added"
 msgstr "Ajoutée"
 
 #: src/nft/components/collection/CollectionAsset.tsx
+#: src/nft/components/profile/view/ViewMyNftsAsset.tsx
 msgid "Added to bag"
 msgstr "Ajouté au panier"
 
@@ -356,7 +357,7 @@ msgstr "Adresse bloquée"
 
 #: src/nft/components/profile/view/ViewMyNftsAsset.tsx
 msgid "Blocked from trading"
-msgstr ""
+msgstr "Bloqué de la négociation"
 
 #: src/components/PositionCard/index.tsx
 msgid "By adding liquidity you'll earn 0.3% of all trades on this pair proportional to your share of the pool. Fees are added to the pool, accrue in real time and can be claimed by withdrawing your liquidity."
@@ -412,6 +413,10 @@ msgstr "Réclamer les jetons UNI"
 #: src/components/AccountDetails/TransactionSummary.tsx
 msgid "Claim UNI reward for {0}"
 msgstr "Réclamez la récompense UNI pour {0}"
+
+#: src/components/WalletDropdown/AuthenticatedHeader.tsx
+msgid "Claim Uniswap NFT Airdrop"
+msgstr "Réclamer un Airdrop NFT Uniswap"
 
 #: src/pages/Pool/PositionPage.tsx
 msgid "Claim fees"
@@ -720,10 +725,6 @@ msgstr "Déposer de la liquidité"
 #: src/pages/Vote/VotePage.tsx
 msgid "Description"
 msgstr "Libellé"
-
-#: src/nft/components/profile/view/ViewMyNftsAsset.tsx
-msgid "Deselected"
-msgstr "Désélectionné"
 
 #: src/pages/RemoveLiquidity/index.tsx
 msgid "Detailed"
@@ -1554,6 +1555,7 @@ msgid "Removed"
 msgstr "Supprimé"
 
 #: src/nft/components/collection/CollectionAsset.tsx
+#: src/nft/components/profile/view/ViewMyNftsAsset.tsx
 msgid "Removed from bag"
 msgstr "Retiré du panier"
 
@@ -1615,10 +1617,6 @@ msgstr "Sélectionnez une action"
 msgid "Select token"
 msgstr "Sélectionnez le jeton"
 
-#: src/nft/components/profile/view/ViewMyNftsAsset.tsx
-msgid "Selected"
-msgstr "Sélectionné"
-
 #: src/pages/AddLiquidity/index.tsx
 msgid "Selected Range"
 msgstr "Fourchette sélectionnée"
@@ -1647,7 +1645,7 @@ msgstr "Définir le prix de départ"
 
 #: src/components/Settings/index.tsx
 msgid "Settings"
-msgstr "Réglages"
+msgstr "Paramètres"
 
 #: src/pages/AddLiquidityV2/PoolPriceBar.tsx
 msgid "Share of Pool"
@@ -2472,7 +2470,7 @@ msgstr "Votre tarif"
 #: src/lib/hooks/swap/useSendSwapTransaction.tsx
 #: src/lib/hooks/swap/useSendSwapTransaction.tsx
 msgid "Your swap was modified through your wallet. If this was a mistake, please cancel immediately or risk losing your funds."
-msgstr ""
+msgstr "Votre échange a été modifié via votre portefeuille. Si c'était une erreur, veuillez annuler immédiatement ou vous risquez de perdre vos fonds."
 
 #: src/components/PositionCard/V2.tsx
 #: src/components/PositionCard/index.tsx
